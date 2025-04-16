@@ -1,0 +1,14 @@
+const isiBab = {
+  1: `
+    <h2>Bab 1: Awal Petualangan</h2>
+    <p>Di sebuah desa kecil, Raka memulai harinya seperti biasa. Ia tak tahu bahwa hari ini akan mengubah hidupnya...</p>
+  `,
+  2: `
+    <h2>Bab 2: Hutan Misterius</h2>
+    <p>Setelah berjalan jauh, Raka sampai di hutan misterius. Udara terasa dingin, dan suara burung berhenti...</p>
+  `
+};
+
+function tampilkanBab(nomor) {
+  document.getElementById("isi-bab").innerHTML = isiBab[nomor];
+}

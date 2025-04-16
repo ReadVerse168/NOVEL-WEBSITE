@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Novel Online: Petualangan Raka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Petualangan Raka</h1>
+    <p>by Kamu</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li onclick="tampilkanBab(1)">Bab 1: Awal Petualangan</li>
+      <li onclick="tampilkanBab(2)">Bab 2: Hutan Misterius</li>
+    </ul>
+  </nav>
+
+  <main id="isi-bab">
+    <h2>Bab 1: Awal Petualangan</h2>
+    <p>Di sebuah desa kecil, Raka memulai harinya seperti biasa...</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
